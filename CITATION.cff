@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Se você usar este software, cite-o usando estes metadados."
+type: software
+title: "Legal Citation Verifier"
+abstract: >-
+  Pipeline offline para identificar, extrair, resolver e classificar citações
+  jurídicas em textos como reais, inventadas ou incompletas. Desenvolvido como
+  solução para o desafio técnico Jusbrasil no BRACIS 2026.
+authors:
+  - given-names: "Arthur"
+    family-names: "Félix"
+    alias: "ArthurHappx"
+    website: "https://github.com/ArthurHappx"
+  - given-names: "Daniel"
+    family-names: "Damião"
+    alias: "DanielPDamiao"
+    website: "https://github.com/DanielPDamiao"
+  - given-names: "Daniele"
+    family-names: "Oliveira"
+    alias: "danieleolivs"
+    website: "https://github.com/danieleolivs"
+  - given-names: "Andrey"
+    family-names: "Kauã"
+    alias: "Andrey-Kaua"
+    website: "https://github.com/Andrey-Kaua"
+version: "1.0.0"
+date-released: "2026-09-30"
+license: MIT
+keywords:
+  - legal citation verification
+  - natural language processing
+  - named entity recognition
+  - legal artificial intelligence
+  - Brazilian Portuguese
+  - hallucination detection

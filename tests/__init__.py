@@ -1,0 +1,1 @@
+"""Testes da solução integrada."""

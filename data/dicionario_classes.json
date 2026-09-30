@@ -1,0 +1,1424 @@
+{
+  "ACAO RESCISORIA": [
+    {
+      "classe_normalizada": "AÇÃO RESCISÓRIA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    },
+    {
+      "classe_normalizada": "AÇÃO RESCISÓRIA",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG-AIRR": [
+    {
+      "classe_normalizada": "AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 15
+    }
+  ],
+  "AG-ARR": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 3
+    }
+  ],
+  "AG-E-AG-RRAG": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AG-E-ARR": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AG-E-RR": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 2
+    }
+  ],
+  "AG-EDCIV-AIRR": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS DE DECLARACAO CIVEL EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AG-EMB-AG-RR": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AG-EMB-ED-RR": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AG-ROT": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO ORDINARIO TRABALHISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 2
+    }
+  ],
+  "AG-RR": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 4
+    }
+  ],
+  "AG-RRAG": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 4
+    }
+  ],
+  "AG.REG. NA ACAO RESCISORIA": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NA AÇÃO RESCISÓRIA",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AG.REG. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 156
+    }
+  ],
+  "AG.REG. NO AG.REG. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO AGRAVO REGIMENTAL NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG.REG. NO HABEAS CORPUS": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO HABEAS CORPUS",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AG.REG. NO RECURSO EXTRAORDINARIO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "AG.REG. NOS EMB.DECL. NO RECURSO EXTRAORDINARIO COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS EMBARGOS DE DECLARAÇÃO NO RECURSO EXTRAORDINÁRIO COM AGRAVO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG.REG. NOS EMB.DECL. NOS EMB.DECL. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DECLARAÇÃO NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG.REG. NOS EMB.DIV. NOS EMB.DECL. NO AG.REG. NO RECURSO EXTRAORDINARIO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS EMBARGOS DE DIVERGÊNCIA NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG.REG. NOS EMB.DIV. NOS EMB.DECL. NO SEGUNDO AG.REG. NO RECURSO EXTRAORDINARIO COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS EMBARGOS DE DIVERGÊNCIA NOS EMBARGOS DE DECLARAÇÃO NO SEGUNDO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG.REG. NOS EMB.DIV. NOS EMB.DECL. NOS EMB.DECL. NO AG.REG. NO RECURSO EXTRAORDINARIO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS EMBARGOS DE DIVERGÊNCIA NOS EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AG.REG. NOS SEGUNDOS EMB.DIV. NOS EMB.DECL. NO SEGUNDO AG.REG. NO RECURSO EXTRAORDINARIO COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS SEGUNDOS EMBARGOS DE DIVERGÊNCIA NOS EMBARGOS DE DECLARAÇÃO NO SEGUNDO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NA RECLAMACAO": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NA RECLAMAÇÃO",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NA SUSPENSAO DE LIMINAR E DE SENTENCA": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NA SUSPENSÃO DE LIMINAR E DE SENTENÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NA SUSPENSAO DE SEGURANCA": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NA SUSPENSÃO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NO AGINT NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO AGRAVO INTERNO NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 28
+    }
+  ],
+  "AGINT NO AGRG NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO AGRAVO REGIMENTAL NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NO CONFLITO DE COMPETENCIA": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO CONFLITO DE COMPETÊNCIA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NO MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NO RECURSO EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO RECURSO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "AGINT NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 31
+    }
+  ],
+  "AGINT NOS EDCL NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NOS EDCL NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DECLARAÇÃO NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 5
+    }
+  ],
+  "AGINT NOS EDCL NOS EMBARGOS DE DIVERGENCIA EM AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DIVERGÊNCIA EM AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGINT NOS EDV NOSEMBARGOS DE DIVERGENCIA EM RESP": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DIVERGÊNCIA NOS EMBARGOS DE DIVERGÊNCIA EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGINT NOS EMBARGOS DE DIVERGENCIA EM AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DIVERGÊNCIA EM AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NOS EMBARGOS DE DIVERGENCIA EM RESP": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DIVERGÊNCIA EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGINT NOSEMBARGOS DE DIVERGENCIA EM RESP": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO NOS EMBARGOS DE DIVERGÊNCIA EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGR-E-ARR": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AGR-E-ED-ARR": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AGR-E-ED-ED-RR": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AGR-E-ED-RR": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO DE INSTRUMENTO": [
+    {
+      "classe_normalizada": "AGRAVO DE INSTRUMENTO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 19
+    }
+  ],
+  "AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 15
+    }
+  ],
+  "AGRAVO EM EMBARGOS DE DECLARACAO CIVEL EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS DE DECLARACAO CIVEL EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO EM EMBARGOS EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO EM EMBARGOS EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO EM EMBARGOS EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 5
+    }
+  ],
+  "AGRAVO EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 8
+    }
+  ],
+  "AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "AGRAVO EM RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 12
+    }
+  ],
+  "AGRAVO EM RECURSO ORDINARIO TRABALHISTA": [
+    {
+      "classe_normalizada": "AGRAVO EM RECURSO ORDINARIO TRABALHISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO INTERNO": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 15
+    }
+  ],
+  "AGRAVO INTERNO CRIMINAL": [
+    {
+      "classe_normalizada": "AGRAVO INTERNO CRIMINAL",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 5
+    }
+  ],
+  "AGRAVO NO RECURSO EXTRAORDINARIO NO AGRAVO DE INSTRUMENTO": [
+    {
+      "classe_normalizada": "AGRAVO NO RECURSO EXTRAORDINÁRIO NO AGRAVO DE INSTRUMENTO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL EM EMBARGOS EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL EM EMBARGOS EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL NA ACAO CAUTELAR": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NA AÇÃO CAUTELAR",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO REGIMENTAL NA ACAO DE INVESTIGACAO JUDICIAL ELEITORAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NA AÇÃO DE INVESTIGAÇÃO JUDICIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL NA TUTELA CAUTELAR ANTECEDENTE": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NA TUTELA CAUTELAR ANTECEDENTE",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO REGIMENTAL NO AGRAVO DE INSTRUMENTO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO AGRAVO DE INSTRUMENTO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 9
+    }
+  ],
+  "AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 6
+    }
+  ],
+  "AGRAVO REGIMENTAL NO MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO MANDADO DE SEGURANÇA",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "AGRAVO REGIMENTAL NO MANDADO DE SEGURANCA CIVEL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO MANDADO DE SEGURANÇA CÍVEL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 32
+    }
+  ],
+  "AGRAVO REGIMENTAL NO RECURSO EXTRAORDINARIO NO RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO NO RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRAVO REGIMENTAL NO RECURSO ORDINARIO": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO ORDINÁRIO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 7
+    }
+  ],
+  "AGRG NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "AGRG NO CONFLITO DE COMPETENCIA": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO CONFLITO DE COMPETÊNCIA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRG NO HABEAS CORPUS": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO HABEAS CORPUS",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "AGRG NO RECURSO EM HABEAS CORPUS": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO EM HABEAS CORPUS",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "AGRG NO RECURSO EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AGRG NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 9
+    }
+  ],
+  "AGRG NOS EDCL NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "AGRAVO REGIMENTAL NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "AIRR": [
+    {
+      "classe_normalizada": "AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 18
+    }
+  ],
+  "APELACAO": [
+    {
+      "classe_normalizada": "APELAÇÃO",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 39
+    }
+  ],
+  "APELACAO CRIMINAL": [
+    {
+      "classe_normalizada": "APELAÇÃO CRIMINAL",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 89
+    }
+  ],
+  "ARR": [
+    {
+      "classe_normalizada": "RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 12
+    }
+  ],
+  "CONFLITO DE JURISDICAO": [
+    {
+      "classe_normalizada": "CONFLITO DE JURISDIÇÃO",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "CORREICAO PARCIAL MILITAR": [
+    {
+      "classe_normalizada": "CORREIÇÃO PARCIAL MILITAR",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "E-ARR": [
+    {
+      "classe_normalizada": "EMBARGOS EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 3
+    }
+  ],
+  "E-ED-AIRR": [
+    {
+      "classe_normalizada": "EMBARGOS EM EMBARGOS DE DECLARACAO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "E-ED-RR": [
+    {
+      "classe_normalizada": "EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 4
+    }
+  ],
+  "E-RR": [
+    {
+      "classe_normalizada": "EMBARGOS EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 9
+    }
+  ],
+  "ED-AG-AIRR": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 5
+    }
+  ],
+  "ED-AG-RR": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "ED-E-ED-ARR": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "ED-E-ED-RR": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 4
+    }
+  ],
+  "ED-ED-E-ED-ED-ARR": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "ED-RR": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 3
+    }
+  ],
+  "ED-RRAG": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCIV-ROT": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO CIVEL EM RECURSO ORDINARIO TRABALHISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO AGINT NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 11
+    }
+  ],
+  "EDCL NO AGINT NO RECURSO EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO INTERNO NO RECURSO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO AGINT NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO INTERNO NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "EDCL NO AGINT NOS EDCL NA RECLAMACAO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO INTERNO NOS EMBARGOS DE DECLARAÇÃO NA RECLAMAÇÃO",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO AGINT NOS EDCL NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO INTERNO NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "EDCL NO AGRG NO AGRG NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO AGRG NO RECURSO EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO AGRG NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO RECURSO EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO RECURSO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NO RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EDCL NOS EDCL NO AGINT NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO INTERNO NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB-RR": [
+    {
+      "classe_normalizada": "EMBARGOS EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DECL. NA ACAO DIRETA DE INCONSTITUCIONALIDADE": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NA AÇÃO DIRETA DE INCONSTITUCIONALIDADE",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DECL. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 7
+    }
+  ],
+  "EMB.DECL. NO AG.REG. EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL EM MANDADO DE SEGURANÇA",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DECL. NO AG.REG. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "EMB.DECL. NO AG.REG. NOS EMB.DECL. NO RECURSO EXTRAORDINARIO COM AGRAVO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NOS EMBARGOS DE DECLARAÇÃO NO RECURSO EXTRAORDINÁRIO COM AGRAVO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DECL. NOS EMB.DECL. NO AG.REG. NO RECURSO EXTRAORDINARIO COM AGRAVO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DECL. NOS EMB.DECL. NOS EMB.DECL. NO AG.REG. NO RECURSO EXTRAORDINARIO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DECLARAÇÃO NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DIV. NO AG.REG. NO RECURSO EXTRAORDINARIO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DIVERGÊNCIA NO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMB.DIV. NOS EMB.DECL. NO AG.REG. NO RECURSO EXTRAORDINARIO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DIVERGÊNCIA NOS EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "EMBARGOS DE DECLARACAO CIVEL EM RECURSO ORDINARIO TRABALHISTA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO CIVEL EM RECURSO ORDINARIO TRABALHISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO CRIMINAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO CRIMINAL",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM AGRAVO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 5
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO AGRAVO REGIMENTAL NA ACAO RESCISORIA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NA AÇÃO RESCISÓRIA",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO AGRAVO REGIMENTAL NO AGRAVO DE INSTRUMENTO": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO AGRAVO DE INSTRUMENTO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 6
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 5
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO AGRAVO REGIMENTAL NO RECURSO CONTRA EXPEDICAO DE DIPLOMA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO CONTRA EXPEDIÇÃO DE DIPLOMA",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO AGRAVO REGIMENTAL NO RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO MANDADO DE SEGURANÇA",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS DE DECLARACAO NO RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "EMBARGOS DE DECLARAÇÃO NO RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 11
+    }
+  ],
+  "EMBARGOS DE DIVERGENCIA EM RESP": [
+    {
+      "classe_normalizada": "EMBARGOS DE DIVERGÊNCIA EM RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "EMBARGOS EM EMBARGOS DE DECLARACAO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS EM EMBARGOS DE DECLARACAO EM AGRAVO DE INSTRUMENTO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS EM EMBARGOS DE DECLARACAO EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "EMBARGOS EM RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "EMBARGOS EM RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 9
+    }
+  ],
+  "EMBARGOS EM RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "EMBARGOS EM RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "EMBARGOS INFRINGENTES E DE NULIDADE": [
+    {
+      "classe_normalizada": "EMBARGOS INFRINGENTES E DE NULIDADE",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 15
+    }
+  ],
+  "HABEAS CORPUS": [
+    {
+      "classe_normalizada": "HABEAS CORPUS",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    },
+    {
+      "classe_normalizada": "HABEAS CORPUS",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    },
+    {
+      "classe_normalizada": "HABEAS CORPUS",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "HABEAS CORPUS CRIMINAL": [
+    {
+      "classe_normalizada": "HABEAS CORPUS CRIMINAL",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 5
+    },
+    {
+      "classe_normalizada": "HABEAS CORPUS CRIMINAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "LISTA TRIPLICE": [
+    {
+      "classe_normalizada": "LISTA TRÍPLICE",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    }
+  ],
+  "PETICAO": [
+    {
+      "classe_normalizada": "PETIÇÃO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    },
+    {
+      "classe_normalizada": "PETIÇÃO",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "PEXT NO RECURSO EM HABEAS CORPUS": [
+    {
+      "classe_normalizada": "PEDIDO DE EXTENSÃO NO RECURSO EM HABEAS CORPUS",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "PRESTACAO DE CONTAS": [
+    {
+      "classe_normalizada": "PRESTAÇÃO DE CONTAS",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "QO NA ACAO PENAL": [
+    {
+      "classe_normalizada": "QUESTÃO DE ORDEM NA AÇÃO PENAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "QO NA CAUTELAR INOMINADA CRIMINAL": [
+    {
+      "classe_normalizada": "QUESTÃO DE ORDEM NA CAUTELAR INOMINADA CRIMINAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "RECLAMACAO": [
+    {
+      "classe_normalizada": "RECLAMAÇÃO",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 2
+    },
+    {
+      "classe_normalizada": "RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    },
+    {
+      "classe_normalizada": "RECLAMAÇÃO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    },
+    {
+      "classe_normalizada": "RECLAMAÇÃO",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "RECURSO DE REVISTA": [
+    {
+      "classe_normalizada": "RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 82
+    }
+  ],
+  "RECURSO DE REVISTA COM AGRAVO": [
+    {
+      "classe_normalizada": "RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "variacao",
+      "ocorrencias": 23
+    }
+  ],
+  "RECURSO EM HABEAS CORPUS": [
+    {
+      "classe_normalizada": "RECURSO EM HABEAS CORPUS",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 16
+    },
+    {
+      "classe_normalizada": "RECURSO EM HABEAS CORPUS",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "RECURSO EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "RECURSO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "RECURSO EM SENTIDO ESTRITO": [
+    {
+      "classe_normalizada": "RECURSO EM SENTIDO ESTRITO",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 16
+    }
+  ],
+  "RECURSO ESPECIAL": [
+    {
+      "classe_normalizada": "RECURSO ESPECIAL",
+      "tribunal": "STJ",
+      "tipo_chave": "variacao",
+      "ocorrencias": 33
+    }
+  ],
+  "RECURSO ESPECIAL ELEITORAL": [
+    {
+      "classe_normalizada": "RECURSO ESPECIAL ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 40
+    }
+  ],
+  "RECURSO NA REPRESENTACAO": [
+    {
+      "classe_normalizada": "RECURSO NA REPRESENTAÇÃO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "RECURSO ORDINARIO": [
+    {
+      "classe_normalizada": "RECURSO ORDINÁRIO",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 18
+    }
+  ],
+  "RECURSO ORDINARIO ELEITORAL": [
+    {
+      "classe_normalizada": "RECURSO ORDINÁRIO ELEITORAL",
+      "tribunal": "TSE",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "REFERENDO NOS DECIMOS EMB.DECL. NA ACAO PENAL": [
+    {
+      "classe_normalizada": "REFERENDO NOS DÉCIMOS EMBARGOS DE DECLARAÇÃO NA AÇÃO PENAL",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "REPRESENTACAO P/ DECLARACAO DE INDIGNIDADE/INCOMPATIBILIDADE": [
+    {
+      "classe_normalizada": "REPRESENTAÇÃO PARA DECLARAÇÃO DE INDIGNIDADE/INCOMPATIBILIDADE",
+      "tribunal": "STM",
+      "tipo_chave": "variacao",
+      "ocorrencias": 4
+    }
+  ],
+  "RR": [
+    {
+      "classe_normalizada": "RECURSO DE REVISTA",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 80
+    }
+  ],
+  "RRAG": [
+    {
+      "classe_normalizada": "RECURSO DE REVISTA COM AGRAVO",
+      "tribunal": "TST",
+      "tipo_chave": "sigla",
+      "ocorrencias": 11
+    }
+  ],
+  "SEGUNDO AG.REG. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "SEGUNDO AGRAVO REGIMENTAL NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 6
+    }
+  ],
+  "SEGUNDO AG.REG. NO RECURSO EXTRAORDINARIO COM AGRAVO": [
+    {
+      "classe_normalizada": "SEGUNDO AGRAVO REGIMENTAL NO RECURSO EXTRAORDINÁRIO COM AGRAVO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 3
+    }
+  ],
+  "SEGUNDO AG.REG. NO RECURSO ORD. EM MANDADO DE SEGURANCA": [
+    {
+      "classe_normalizada": "SEGUNDO AGRAVO REGIMENTAL NO RECURSO ORDINÁRIO EM MANDADO DE SEGURANÇA",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ],
+  "TERCEIRO AG.REG. NA RECLAMACAO": [
+    {
+      "classe_normalizada": "TERCEIRO AGRAVO REGIMENTAL NA RECLAMAÇÃO",
+      "tribunal": "STF",
+      "tipo_chave": "variacao",
+      "ocorrencias": 1
+    }
+  ]
+}

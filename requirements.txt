@@ -1,0 +1,7 @@
+torch==2.7.1
+transformers==4.57.1
+safetensors==0.6.2
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+regex==2026.9.29
+hf-xet==1.6.0

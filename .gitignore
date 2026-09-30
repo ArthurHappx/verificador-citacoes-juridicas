@@ -1,0 +1,28 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.orig
+*.rej
+.cache
+legal-bert-ner/
+
+# Pesos e pacotes de release são obtidos antes do build da imagem.
+models/
+models.zip
+dist/
+
+# A base e o índice da avaliação são fornecidos/gerados em tempo de execução.
+*.db
+*.sqlite
+
+# Artefatos locais e dados de desenvolvimento não são redistribuídos.
+smoke_input/
+smoke_output/
+output/
+*_artifacts/
+extraction/testes/*annotations*.json
+extraction/testes/smoke_synt_bd.json
+extraction/testes/synt_citacoes_bd.csv
+tests/regression/goldenset_offsets.csv
