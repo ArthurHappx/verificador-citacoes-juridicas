@@ -1,81 +1,50 @@
 # Execução rápida
 
-Este guia executa o Verificador de Citações Jurídicas a partir de um SQLite canônico e de uma pasta com documentos `.txt` de input.
+Na raiz do repositório, coloque o banco em `input/base.db` e os documentos `.txt` UTF-8 em `input/txt/`. Ajuste os caminhos abaixo se necessário; `$PWD` representa o diretório atual.
 
-## Entradas necessárias
+## Docker
 
-- `<caminho_db>`: banco SQLite no formato descrito no README;
-- `<pasta_txt>`: pasta com um ou mais arquivos `.txt` UTF-8 (sem BOM);
-- `<arquivo_saida.csv>`: caminho onde o CSV final será criado.
-
-## Opção recomendada: Docker com GPU
-
-Na raiz do repositório, baixe e valide o checkpoint:
+Prepare os pesos e a imagem com acesso à internet:
 
 ```bash
 ./scripts/download_model.sh
-```
-
-Construa a imagem:
-
-```bash
 docker build -t legal-citation-verifier:1.0.0 .
+mkdir -p output
 ```
 
-Crie a pasta de saída e execute sem acesso à internet:
+**Antes de usar GPU**, verifique o acesso pelo Docker (requer driver NVIDIA e NVIDIA Container Toolkit):
 
 ```bash
-mkdir -p output
+docker run --rm --gpus all ubuntu nvidia-smi
+```
 
+Se o erro exigir o runtime NVIDIA, adicione `--runtime=nvidia` à checagem e à execução. Para executar em CPU, remova `--gpus all` e use `--device cpu`.
+
+Execute o pipeline sem acesso à internet:
+
+```bash
 docker run --rm --network none --gpus all \
-  -v "/caminho/absoluto/base.db:/input/base.db:ro" \
-  -v "/caminho/absoluto/txt:/input/txt:ro" \
+  -v "$PWD/input/base.db:/input/base.db:ro" \
+  -v "$PWD/input/txt:/input/txt:ro" \
   -v "$PWD/output:/output" \
   legal-citation-verifier:1.0.0 \
   /input/base.db /input/txt /output/submission.csv --device cuda
 ```
 
-O resultado principal será `output/submission.csv`.
-
 ## Execução local
 
-Com as dependências de `requirements.txt` instaladas e os pesos já baixados:
+Com as dependências de `requirements.txt` instaladas e os pesos baixados:
 
 ```bash
 bash run.sh \
-  /caminho/absoluto/base.db \
-  /caminho/absoluto/txt \
-  /caminho/absoluto/output/submission.csv \
-  --device cuda
+  "$PWD/input/base.db" \
+  "$PWD/input/txt" \
+  "$PWD/output/submission.csv" \
+  --device cpu
 ```
 
-Para testar sem GPU, use `--device cpu`. No Docker, remova também a opção `--gpus all`.
+Use `--device cuda` se CUDA estiver disponível no seu ambiente PyTorch. CPU dispensa configurar GPU; no lote medido de 26 documentos, GPU levou em média 19,8 s contra 47,0 s em CPU. O ganho depende do hardware; veja as [condições da medição](README.md#cpu-ou-gpu-desempenho-medido).
 
-## Arquivos gerados
+O resultado é `output/submission.csv`; índice, resumo e JSONs também ficam em `output/`.
 
-Ao lado do CSV, o pipeline grava:
-
-```text
-output/
-├── submission.csv
-├── canonical_index.sqlite
-├── run_summary.json
-└── enriched_json/
-    └── <documento_id>.json
-```
-
-O índice é construído automaticamente a partir do banco recebido. Não é necessário fornecer um `canonical_index.sqlite` pré-computado.
-
-## Ajuda e diagnóstico
-
-```bash
-bash run.sh --help
-```
-
-Se o checkpoint estiver ausente ou com hash incorreto, execute novamente:
-
-```bash
-./scripts/download_model.sh
-```
-
-Para detalhes da abordagem, contrato da base, execução com release privada e testes, consulte o[README completo](README.md).
+Para opções, execute `bash run.sh --help`. Consulte o [README](README.md) para requisitos e diagnóstico.

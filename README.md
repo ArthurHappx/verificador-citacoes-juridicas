@@ -33,7 +33,7 @@ O fluxo é composto por seis etapas:
 ## Requisitos
 
 - Docker 24 ou posterior;
-- NVIDIA Container Toolkit para execução em GPU;
+- GPU NVIDIA, driver NVIDIA e NVIDIA Container Toolkit configurados para execução em GPU (opcionais para execução em CPU);
 - espaço para a imagem, o checkpoint e o índice gerado;
 - internet apenas na preparação, para obter a imagem base, dependências e o
   asset fixo do modelo.
@@ -62,7 +62,7 @@ gh release download model-v1.0.0 \
 ./scripts/download_model.sh bertimbau-citations-v1.0.0.tar.gz
 ```
 
-Consulte [MODEL_CARD.md](MODEL_CARD.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) e [LICENSE](LICENSE) para proveniência, atribuições, limitações e licenciamento.
+Consulte [MODEL_CARD.md](models/bertimbau-citations/MODEL_CARD.md), [THIRD_PARTY_NOTICES.md](models/bertimbau-citations/THIRD_PARTY_NOTICES.md) e [LICENSE](LICENSE) para proveniência, atribuições, limitações e licenciamento.
 
 ## Execução
 
@@ -72,15 +72,17 @@ O ponto de entrada único recebe o SQLite original, a pasta dos documentos e o c
 bash run.sh <caminho_db> <pasta_txt> <arquivo_saida.csv>
 ```
 
-Exemplo:
+Execute os exemplos na raiz do repositório, com o banco em `input/base.db` e os documentos em `input/txt/`. `$PWD` expande para o diretório atual; ajuste os caminhos se suas entradas estiverem em outra pasta.
 
 ```bash
 bash run.sh \
-  /dados/base.db \
-  /dados/txt \
-  /resultado/submission.csv \
+  "$PWD/input/base.db" \
+  "$PWD/input/txt" \
+  "$PWD/output/submission.csv" \
   --device cuda
 ```
+
+Use `--device cpu` para executar sem GPU. O padrão `--device auto` escolhe CUDA quando disponível e CPU caso contrário; `--device cuda` gera erro se CUDA não estiver disponível no ambiente PyTorch.
 
 O índice `canonical_index.sqlite` é criado automaticamente ao lado do CSV. Um índice existente somente é reutilizado se sua versão e o SHA-256 da base forem compatíveis. Todas as opções podem ser consultadas com:
 
@@ -93,7 +95,7 @@ bash run.sh --help
 Além do CSV solicitado, a pasta de saída recebe:
 
 ```text
-resultado/
+output/
 ├── submission.csv
 ├── canonical_index.sqlite
 ├── run_summary.json
@@ -106,6 +108,20 @@ Cada JSON enriquecido registra spans, dados extraídos, alertas, tentativas de c
 
 ## Execução com Docker
 
+> **Antes de usar `--device cuda`, confirme que o Docker consegue acessar sua GPU NVIDIA.** Durante a preparação com internet, execute:
+
+```bash
+docker run --rm --gpus all ubuntu nvidia-smi
+```
+
+O comando deve exibir sua GPU e a versão do driver; ele pode baixar a imagem `ubuntu`. Se o erro exigir explicitamente o runtime NVIDIA, repita com:
+
+```bash
+docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+```
+
+Se essa variante funcionar, adicione também `--runtime=nvidia` ao comando do pipeline. Se a checagem continuar falhando ou não houver GPU NVIDIA, execute em CPU conforme indicado abaixo. A checagem segue o [exemplo oficial do NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html).
+
 Depois de baixar e verificar os pesos:
 
 ```bash
@@ -113,14 +129,31 @@ docker build -t legal-citation-verifier:1.0.0 .
 mkdir -p output
 
 docker run --rm --network none --gpus all \
-  -v "/caminho/base.db:/input/base.db:ro" \
-  -v "/caminho/txt:/input/txt:ro" \
+  -v "$PWD/input/base.db:/input/base.db:ro" \
+  -v "$PWD/input/txt:/input/txt:ro" \
   -v "$PWD/output:/output" \
   legal-citation-verifier:1.0.0 \
   /input/base.db /input/txt /output/submission.csv --device cuda
 ```
 
-Para uma verificação funcional em CPU, remova `--gpus all` e use `--device cpu`. O banco de entrada é montado somente para leitura; índice e resultados são gravados em `/output`.
+Para executar o pipeline completo em CPU, remova `--gpus all` (e `--runtime=nvidia`, se usado) e use `--device cpu`. O banco de entrada é montado somente para leitura; índice e resultados são gravados em `/output`.
+
+### CPU ou GPU: desempenho medido
+
+O parâmetro `--device` controla a inferência do BERTimbau que identifica citações. Tokenização, pós-processamento, extração, construção do índice, consultas SQLite e geração de JSON/CSV continuam na CPU.
+
+Em 1º de outubro de 2026, foram realizadas três execuções por modo com 26 documentos, a mesma imagem Docker, o mesmo checkpoint, índice já construído e quatro threads do PyTorch na CPU:
+
+| Dispositivo | Tempo médio do processo | Variação entre as três execuções |
+|---|---:|---:|
+| CPU: Intel i7-11390H | 47,0 s | 33,5–60,2 s |
+| GPU: NVIDIA MX450 de 2 GB | 19,8 s | 18,6–21,2 s |
+
+Nesse lote, GPU economizou cerca de **27 s por execução**, com aproximadamente **2,4× de aceleração** e **58% de redução no tempo médio**. O tempo inclui a inicialização do Python e das bibliotecas, carga do modelo, validação e processamento dos documentos. Não inclui iniciar o contêiner, construir a imagem ou construir o índice. A primeira execução pode gastar tempo adicional na indexação, que não é acelerada pela GPU.
+
+CPU é uma opção prática para execuções ocasionais de lotes desse porte, pois dispensa configurar o acesso à GPU. GPU tende a compensar em execuções repetidas ou lotes maiores. Os valores são uma referência para esse hardware e esses documentos; a variação observada impede tratá-los como garantia para outras máquinas.
+
+O pipeline atual processa uma janela por vez e usa FP32, portanto ainda há espaço para otimizar o uso de GPU. Nos testes medidos, ambos os modos produziram 192 citações sem erros, com os mesmos spans, classificações e IDs canônicos; a confiança de uma citação variou de `0,8117` para `0,8118`.
 
 ## Contrato de entrada
 
@@ -183,7 +216,7 @@ Os testes de integração e regressão usam a base, o índice e o gabarito de de
 
 ## Como citar
 
-Os metadados de citação estão disponíveis em [CITATION.cff](CITATION.cff). Em interfaces compatíveis, use a opção **Cite this repository**. A citação do BERTimbau, modelo-base do identificador, permanece registrada separadamente em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Os metadados de citação estão disponíveis em [CITATION.cff](CITATION.cff). Em interfaces compatíveis, use a opção **Cite this repository**. A citação do BERTimbau, modelo-base do identificador, permanece registrada separadamente em [THIRD_PARTY_NOTICES.md](models/bertimbau-citations/THIRD_PARTY_NOTICES.md).
 
 ## Licença
 
